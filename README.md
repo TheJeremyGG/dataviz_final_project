@@ -1,43 +1,65 @@
-# Data Visualization and Reproducible Research
+# Data Visualization 
 
-> Firstname Lastname. 
+> Jeremy Gerardi
 
+## Mini-Project 1
 
-The following is a sample of products created during the _"Data Visualization and Reproducible Research"_ course.
+This project explores the global trends in cybersecurity threats between 2015 and 2024, leveraging R for data visualization. 
+The goal is to identify and present key insights on financial losses, types of cyber attacks, and common security vulnerabilities through clear and effective charts.
 
+### Summary of findings:
 
-## Project 01
+- Financial losses from cyber attacks have fluctuated over the past decade.
+- Certain types of attacks such as DDoS and phishing are more common than others, suggesting that those areas should become high priorities in terms of increasing defense mechanisms.
+- Zero-day, social engineering, unpatched software, and weak passwords are almost equally exploited, showing that they should all be thought of as high risk when considering vulnerabilities.
 
-In the `project_01/` folder you can find... _[add short description of your revised project here]_
+### Description of data:
 
-**Sample data visualization:** 
-
-_[include your favorite visualization from this project here]_
-<img src="https://raw.githubusercontent.com/aalhamadani/dataviz_final_project/main/figures/echarts.png" width="70%" height="70%">
-
-
-## Project 02
-
-In this project, I explored ... _[short description of your revised project goes here]_ Find the code and report in the `project_02/` folder.
-
-**Sample data visualization:** 
-
-_[include your favorite visualization from this project here]_
-<img src="https://raw.githubusercontent.com/aalhamadani/dataviz_final_project/main/figures/fl_higher_ed.png" width="80%" height="80%">
-
-(you can place your figures in the `figures/` folder and use the `![](path_to_picture)` option to add the pictures here)
-
-
-## Project 03
-
-In this project, I explored ... _[short description of the data visualizations you for this part of the project produced goes here]_
-
-**Sample data visualization:** 
-
-_[include your favorite visualization from this project here]_
-<img src="https://raw.githubusercontent.com/aalhamadani/dataviz_final_project/main/figures/concrete_density.png" width="80%" height="80%">
-
-
-### Moving Forward
-
-_Please add here a short reflection on what you learned and what you plan to continue exploring in terms of data visualization, data storytelling, reproducible research, and/or related topics._
+- The dataset includes the following columns:
+-- Country
+--- Australia
+--- Brazil
+--- China
+--- France
+--- Germany
+--- India
+--- Japan
+--- Russia
+--- UK
+--- US
+-- Year
+--- 2015-2024
+-- Attack Type
+--- DDoS
+--- Malware
+--- Man-in-the-Middle
+--- Phisihing
+--- Ransomware
+--- SQL Injection
+-- Target Industry
+--- Banking
+--- Education
+--- Government
+--- Healthcare
+--- IT
+--- Retail
+--- Telecommunications
+-- Financial Loss (in Million $)
+-- Number of Affected Users
+-- Attack Source
+--- Hacker Group
+--- Insider
+--- Nation State
+--- Unknown
+-- Security Vulnerability Type
+--- Social Engineering
+--- Unpatched Software
+--- Weak Passwords
+--- Zero-day
+-- Defense Mechanism Used
+--- AI-based Detection
+--- Antivirus
+--- Encryption
+--- Firewall
+--- VPN
+-- Incident Resolution Time (in Hours)
